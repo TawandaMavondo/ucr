@@ -1,3 +1,41 @@
+body {
+  color: #707070;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 36px;
+}
+
+.company-profile {
+  margin: 200px 0;
+}
+
+.company-profile p {
+  margin-bottom: 0;
+}
+
+.company-profile .text {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.company-profile .text h1 {
+  color: #1880dc;
+  margin-bottom: 10px;
+}
+
+.company-profile .text p {
+  font-size: 18px;
+}
+
+.company-profile .row .col-md-6,
+.company-profile .row .col-md-3 {
+  padding: 0 1.5px;
+}
+
 .call-out {
   background: -webkit-gradient(linear, left bottom, left top, from(#0a4475), to(#187ed9));
   background: linear-gradient(to top, #0a4475, #187ed9);
