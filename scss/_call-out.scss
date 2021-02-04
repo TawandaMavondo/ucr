@@ -1,0 +1,20 @@
+.call-out {
+    background: linear-gradient(to top, #0a4475, #187ed9);
+    height: 100vh;
+    .nav-bar {
+        background: transparent;
+        .navbar-nav {
+            .navbar-collapse {
+                a {
+                    color: white !important;
+                }
+            }
+        }
+    }
+    .arrow-down {
+        i {
+            color: red;
+            font-size: 16px;
+        }
+    }
+}

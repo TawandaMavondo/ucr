@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.call-out {
+  background: -webkit-gradient(linear, left bottom, left top, from(#0a4475), to(#187ed9));
+  background: linear-gradient(to top, #0a4475, #187ed9);
+  height: 100vh;
+}
+
+.call-out .nav-bar {
+  background: transparent;
+}
+
+.call-out .nav-bar .navbar-nav .navbar-collapse a {
+  color: white !important;
+}
+
+.call-out .arrow-down i {
+  color: red;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
