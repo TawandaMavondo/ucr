@@ -194,4 +194,39 @@ h1 {
   font-size: 20px;
   display: none;
 }
+
+.bookings {
+  margin-top: 150px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0a4475), to(#187ed9));
+  background: linear-gradient(to top, #0a4475, #187ed9);
+}
+
+.bookings .bookings-form {
+  padding: 150px 0;
+}
+
+.bookings .bookings-form label {
+  color: white;
+}
+
+.bookings .bookings-form .dates {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bookings .bookings-form .dates .form-group {
+  width: 40%;
+}
+
+.bookings .bookings-form .btn-submit {
+  text-transform: uppercase;
+  color: #1880DC;
+}
+
+@media (min-width: 768px) {
+  .bookings .bookings-form .btn-submit {
+    width: 30%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
