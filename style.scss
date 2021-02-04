@@ -1,5 +1,12 @@
+// Base styles import
+@import './scss/colors';
 @import "./scss/base";
+@import "./scss/fonts";
+
+// Section Styles
 @import "./scss/call-out";
 @import './scss/about_us';
+@import './scss/our_fleet';
+
+// Responsive styles import
 @import "./scss/responsive";
-@import "./scss/fonts";

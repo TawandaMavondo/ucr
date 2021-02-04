@@ -1,0 +1,57 @@
+.our-fleet {
+    margin: 200px 0;
+    h1 {
+        font-family: "Space Grotesk", sans-serif;
+
+        margin-bottom: 20px;
+        span {
+            color: $red;
+            font-weight: bold;
+        }
+    }
+    .fleet-showcase {
+        margin-top: 100px;
+        .book-now {
+            background: $red;
+            height: 85%;
+            text-align: center;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            border-radius: 3px;
+            h1{
+                color: white;
+            }
+        }
+    }
+    .tabs {
+        align-items: flex-end;
+        .active {
+            background: $red !important;
+            color: white !important;
+            width: 100% !important;
+            img {
+                display: inline !important;
+            }
+
+            transition-duration: 400ms;
+            transition-property: width;
+
+        }
+
+        .nav-link {
+            transition-duration: 400ms;
+            transition-property: width;
+            background: $lightBlue;
+            color: white;
+            width: 85%;
+            margin-bottom: 2px;
+            border-radius: 0;
+            padding: 30px;
+            display: flex;
+            img {
+                font-size: 20px;
+                display: none;
+            }
+        }
+    }
+}

@@ -120,4 +120,78 @@ h1 {
     width: 45%;
   }
 }
+
+.our-fleet {
+  margin: 200px 0;
+}
+
+.our-fleet h1 {
+  font-family: "Space Grotesk", sans-serif;
+  margin-bottom: 20px;
+}
+
+.our-fleet h1 span {
+  color: #f52727;
+  font-weight: bold;
+}
+
+.our-fleet .fleet-showcase {
+  margin-top: 100px;
+}
+
+.our-fleet .fleet-showcase .book-now {
+  background: #f52727;
+  height: 85%;
+  text-align: center;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  border-radius: 3px;
+}
+
+.our-fleet .fleet-showcase .book-now h1 {
+  color: white;
+}
+
+.our-fleet .tabs {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.our-fleet .tabs .active {
+  background: #f52727 !important;
+  color: white !important;
+  width: 100% !important;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+}
+
+.our-fleet .tabs .active img {
+  display: inline !important;
+}
+
+.our-fleet .tabs .nav-link {
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+  background: #1880DC;
+  color: white;
+  width: 85%;
+  margin-bottom: 2px;
+  border-radius: 0;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.our-fleet .tabs .nav-link img {
+  font-size: 20px;
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
