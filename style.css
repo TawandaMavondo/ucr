@@ -1,6 +1,7 @@
 body {
   color: #707070;
   font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
   line-height: 25px;
 }
 
@@ -53,5 +54,70 @@ h1 {
 .call-out .arrow-down i {
   color: red;
   font-size: 16px;
+}
+
+.about-us {
+  padding: 80px 0 80px;
+  position: relative;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0a4475), to(#187ed9));
+  background: linear-gradient(to top, #0a4475, #187ed9);
+}
+
+.about-us h1 {
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-us > div {
+  margin-bottom: 70px;
+}
+
+.about-us .tabs .active {
+  background: red !important;
+  color: white !important;
+}
+
+.about-us .tabs .active .fa-arrow-alt-circle-right {
+  display: inline-block !important;
+}
+
+.about-us .tabs .nav-link {
+  background: white;
+  color: inherit;
+  margin-bottom: 2px;
+  border-radius: 0;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-us .tabs .nav-link .fa-arrow-alt-circle-right {
+  font-size: 20px;
+  display: none;
+}
+
+.about-us .tab-content .tab-pane {
+  height: 100%;
+}
+
+.about-us .tab-content .tab-pane .download {
+  padding-top: 25px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+.about-us .cars-end {
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
+@media (min-width: 992px) {
+  .about-us .cars-end {
+    width: 45%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

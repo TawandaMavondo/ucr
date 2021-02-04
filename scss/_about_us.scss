@@ -1,0 +1,65 @@
+.about-us {
+    padding: 80px 0 80px;
+    position: relative;
+    // height: 70vh;
+    h1 {
+        color: white;
+        font-family: "Space Grotesk", sans-serif;
+        margin-bottom: 20px;
+    }
+    background: linear-gradient(to top, #0a4475, #187ed9);
+    > div {
+        margin-bottom: 70px;
+    }
+    .tabs {
+        .active {
+            background: red !important;
+            color: white !important;
+            .fa-arrow-alt-circle-right {
+                display: inline-block !important;
+            }
+        }
+
+        .nav-link {
+            background: white;
+            color: inherit;
+            margin-bottom: 2px;
+            border-radius: 0;
+            padding: 30px;
+            display: flex;
+            .fa-arrow-alt-circle-right {
+                font-size: 20px;
+                display: none;
+            }
+        }
+    }
+
+    .tab-content {
+        .tab-pane {
+            height: 100%;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            .download {
+                padding-top: 25px;
+                font-weight: lighter;
+                text-decoration: underline;
+            }
+        }
+    }
+    .cars-end {
+        width: 70%;
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 992px) {
+    .about-us {
+        .cars-end {
+            width: 45%;
+        }
+    }
+}
