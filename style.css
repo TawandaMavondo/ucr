@@ -272,6 +272,33 @@ h2 {
   background: white;
 }
 
+.contact-us .faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-us .faq h2 {
+  color: #f52727;
+  font-weight: lighter;
+}
+
+.contact-us .faq ul {
+  margin-top: 44px;
+}
+
+.contact-us .faq ul li {
+  border-top: 1.3px solid #f52727;
+  padding: 30px 0;
+}
+
 @media (min-width: 768px) {
   .contact-us .contact-panel .btn-submit {
     width: 30%;

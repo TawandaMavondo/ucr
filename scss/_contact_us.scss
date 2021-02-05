@@ -12,17 +12,34 @@
             font-weight: 400;
             margin: 35px 0;
         }
-        .form-control{
+        .form-control {
             background: #1880dc;
             border: none;
             border-radius: 0;
             color: white;
             border-bottom: 2px solid white;
-
         }
-        .btn-submit{
+        .btn-submit {
             color: $lightBlue;
             background: white;
+        }
+    }
+    // FAQ
+    .faq {
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            color: $red;
+            font-weight: lighter;
+        }
+
+        ul{
+            margin-top: 44px;
+            li{
+                border-top: 1.3px solid $red;
+                padding: 30px 0;
+            }
         }
     }
 }
