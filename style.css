@@ -37,6 +37,11 @@ h1 {
   padding: 0 1.5px;
 }
 
+h1,
+h2 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
 .call-out {
   background: -webkit-gradient(linear, left bottom, left top, from(#0a4475), to(#187ed9));
   background: linear-gradient(to top, #0a4475, #187ed9);
@@ -181,7 +186,7 @@ h1 {
   transition-property: width;
   background: #1880DC;
   color: white;
-  width: 85%;
+  width: 100%;
   margin-bottom: 2px;
   border-radius: 0;
   padding: 30px;
@@ -193,6 +198,12 @@ h1 {
 .our-fleet .tabs .nav-link img {
   font-size: 20px;
   display: none;
+}
+
+@media (min-width: 992px) {
+  .our-fleet .tabs .nav-link {
+    width: 85%;
+  }
 }
 
 .bookings {
@@ -226,6 +237,32 @@ h1 {
 
 @media (min-width: 768px) {
   .bookings .bookings-form .btn-submit {
+    width: 30%;
+  }
+}
+
+.contact-us {
+  margin: 150px 0;
+}
+
+.contact-us .contact-panel {
+  background: #1880dc;
+  padding-bottom: 60px;
+  border-radius: 6px;
+}
+
+.contact-us .contact-panel h2 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+
+.contact-us .contact-panel .btn-submit {
+  color: #1880DC;
+}
+
+@media (min-width: 768px) {
+  .contact-us .contact-panel .btn-submit {
     width: 30%;
   }
 }

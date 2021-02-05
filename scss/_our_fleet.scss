@@ -18,7 +18,7 @@
             writing-mode: vertical-rl;
             text-orientation: mixed;
             border-radius: 3px;
-            h1{
+            h1 {
                 color: white;
             }
         }
@@ -35,7 +35,6 @@
 
             transition-duration: 400ms;
             transition-property: width;
-
         }
 
         .nav-link {
@@ -43,7 +42,7 @@
             transition-property: width;
             background: $lightBlue;
             color: white;
-            width: 85%;
+            width: 100%;
             margin-bottom: 2px;
             border-radius: 0;
             padding: 30px;
@@ -51,6 +50,18 @@
             img {
                 font-size: 20px;
                 display: none;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .our-fleet {
+        .tabs {
+            
+            .nav-link{
+                width: 85%;
             }
         }
     }
