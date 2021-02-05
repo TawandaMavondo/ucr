@@ -247,6 +247,7 @@ h2 {
 
 .contact-us .contact-panel {
   background: #1880dc;
+  padding: 35px;
   padding-bottom: 60px;
   border-radius: 6px;
 }
@@ -255,10 +256,20 @@ h2 {
   text-transform: uppercase;
   color: white;
   font-weight: 400;
+  margin: 35px 0;
+}
+
+.contact-us .contact-panel .form-control {
+  background: #1880dc;
+  border: none;
+  border-radius: 0;
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 .contact-us .contact-panel .btn-submit {
   color: #1880DC;
+  background: white;
 }
 
 @media (min-width: 768px) {
