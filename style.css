@@ -49,14 +49,10 @@ h2 {
 }
 
 .call-out .nav-bar {
-  background: transparent;
+  background: #187ed9 !important;
 }
 
-.call-out .nav-bar .navbar-nav .navbar-collapse a {
-  color: white !important;
-}
-
-.call-out .arrow-down i {
+.call-out .nav-bar .arrow-down i {
   color: red;
   font-size: 16px;
 }

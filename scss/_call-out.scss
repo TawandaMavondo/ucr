@@ -2,19 +2,13 @@
     background: $blueGradient;
     height: 100vh;
     .nav-bar {
-        background: transparent;
-        .navbar-nav {
-            .navbar-collapse {
-                a {
-                    color: white !important;
-                }
-            }
-        }
-    }
+        background: #187ed9 !important;
+       
     .arrow-down {
         i {
             color: red;
             font-size: 16px;
         }
     }
+}
 }
