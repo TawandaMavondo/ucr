@@ -111,6 +111,7 @@ h2 {
 
 .call-out .ucr-call {
   margin-top: 30px;
+  position: relative;
 }
 
 .call-out .ucr-call > div {
@@ -151,6 +152,21 @@ h2 {
   width: 80%;
   position: absolute;
   bottom: -20%;
+}
+
+.call-out .ucr-call .social {
+  position: absolute;
+  right: 0;
+}
+
+.call-out .ucr-call .social img {
+  width: 2%;
+  position: relative;
+  bottom: -2%;
+}
+
+.call-out .text p {
+  font-size: 20px;
 }
 
 .call-out .arrow-down i {
@@ -194,6 +210,9 @@ h2 {
     width: 80%;
     position: absolute;
     bottom: -30%;
+  }
+  .call-out .text p {
+    font-size: 26px;
   }
 }
 
@@ -448,5 +467,11 @@ h2 {
   .contact-us .contact-panel .btn-submit {
     width: 30%;
   }
+}
+
+footer {
+  background: -webkit-gradient(linear, left bottom, left top, from(#0a4475), to(#187ed9));
+  background: linear-gradient(to top, #0a4475, #187ed9);
+  height: 70vh;
 }
 /*# sourceMappingURL=style.css.map */
